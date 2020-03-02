@@ -9,6 +9,7 @@
 
 body{
   height: 3000px;
+  color: #2c3e50;
 }
 
 main{
@@ -18,8 +19,10 @@ main{
 [class*="col-"]{
   /* border: solid 1px; */
 
-  /* min-height: 50px; */
+  min-height: 5px;
 }
+
+
 
 a, a:visited, a:hover, a:focus{
 text-decoration: none;
@@ -29,8 +32,19 @@ text-decoration: none;
   text-align: center;
 }
 
+section{
+  padding: 65px;
+}
+
+.sec-green{
+  background-color: #1abc9c;
+  color: white;
+}
+
+
+
 img{
-  height: 250px;
+  width: 100%;
 }
 
 h1{
@@ -73,35 +87,44 @@ header{
 
 /* FINE HEADER */
 
-.jumbotron{
-  padding: 65px;
-}
 
-.stellina > * {
-  display: inline-block;
-}
-
-.stellina .linea {
-  background-color: white;
-  height: 3px;
-  width: 50px;
-  margin-bottom: 2px;
-}
-
-.jumbotron{
-  background-color: #1abc9c;
-  color: white;
-}
-
-.lineac{
+.linea{
   height: 5px;
-  background-color: white;
   margin-top: 20px;
   margin-bottom: 30px;
   border-radius: 50%;
 }
 
+.lin-white{
+  background-color: white;
+}
+
 .jumbotron p{
   font-size: 25px;
 
+}
+
+.jumbotron img{
+  width: 200px;
+}
+
+/* FINE-JUMBO */
+
+.lin-port{
+  background-color: #2c3e50;
+}
+
+.riga-top{
+  margin-bottom: 15px;
+}
+
+.img-portfolio > img{
+  border-radius: 10px;
+}
+
+/* FINE PORTFOLIO */
+
+.text-about p{
+  text-align: left;
+  font-size: 20px;
 }
