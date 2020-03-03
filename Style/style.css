@@ -64,6 +64,7 @@ h1{
 }
 
 
+
 /* HEADER */
 
 header a{
@@ -139,6 +140,10 @@ header .button{
 
 .jumbo img{
   width: 200px;
+}
+
+.butt-hover:hover{
+  background-color: #148f77;
 }
 
 
